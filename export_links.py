@@ -2,8 +2,14 @@
 
 # Requires http://code.google.com/p/feedparser/
 import feedparser
+
+# Requires http://www.crummy.com/software/BeautifulSoup/
 from bs4 import BeautifulSoup
+
+# Requires https://github.com/mgan59/python-pinboard
 import pinboard
+
+
 import sys
 import time
 
